@@ -34,7 +34,8 @@
                     c0.3,0.2,0.5,0.5,0.6,0.9l0,62.3L114.4,98.8L114.4,98.8z M95.3,68.6v39.4L23.1,66.4V26.9L95.3,68.6z"/>
                 </svg>
               <?php } ?>
-                <div class="mb-4"><?php echo $sysconf['library_name']; ?></div>
+                <div><h5><?php echo $sysconf['library_name']; ?></h5></div>
+                <div class="mb-4"><h8><?php echo $sysconf['library_subname']; ?></h8></div>
                 <ul class="list-reset">
                     <li><a class="text-light" href="index.php?p=libinfo"><?= __('Information'); ?></a></li>
                     <li><a class="text-light" href="index.php?p=services"><?= __('Services'); ?></a></li>
@@ -43,10 +44,7 @@
                 </ul>
             </div>
             <div class="col-md-5 pt-8 md:pt-0">
-                <h4 class="mb-4"><?= __('About Us'); ?></h4>
-                <p>
-                    <?= $sysconf['template']['classic_footer_about_us']; ?>
-                </p>
+                
             </div>
             <div class="col-md-4 pt-8 md:pt-0">
                 <h4 class="mb-4"><?= __('Search'); ?></h4>
@@ -66,18 +64,12 @@
                         </div>
                     </div>
                 </form>
-                <hr>
-                <a target="_blank" title="Support Us" class="btn btn-outline-success mb-2"
-                   href="https://slims.web.id/web/pages/support-us/"><i
-                            class="fas fa-heart mr-2"></i><?= __('Keep SLiMS Alive'); ?></a>
-                <a target="_blank" title="Contribute" class="btn btn-outline-light mb-2"
-                   href="https://github.com/slims/"><i
-                            class="fab fa-github mr-2"></i><?= __('Want to Contribute?'); ?></a>
+                
             </div>
         </div>
         <hr>
         <div class="flex font-thin text-sm">
-            <p class="flex-1">&copy; <?php echo date('Y'); ?> &mdash; Senayan Developer Community</p>
+            <p class="flex-1">&copy; <?php echo date('Y'); ?> &mdash; Diklat Center RSUD dr. Adhyatma, MPH</p>
             <div class="flex-1 text-right text-grey"><?= __('Powered by '); ?><code>SLiMS</code></div>
         </div>
     </div>
